@@ -63,6 +63,8 @@ nav ul li a{
 .banner-container {
     max-width: 1200px;
     width: 71%;
+    margin: 0 auto;
+    
 }
 .banner-container h1{
     font-size: 72px;
@@ -70,15 +72,22 @@ nav ul li a{
      max-width: 1200px;
      color: white;
      padding-top: 150px;
+     text-align: center;
 }
-.banner-container p{
+#banner .banner-container p{
     color: white;
     font-size: 18px;
     font-weight: normal;
+    text-align: center;
+    max-width: 1200px;
+     width: 71%;
+    
 }
 .btn-section {
     margin-top: 32px;
     text-align: center;
+    
+    
 }
 #cart-section {
       max-width: 1200px;
@@ -182,21 +191,21 @@ footer {
 }
 .footer-cotainer {
     max-width: 1200px;
-}
-hr {
-    background-color: #172d43;
+    width: 100%;
 }
 .footer-logo {
     display: flex;
-    width: 100%;
-  
-}
+      }
 .footer-icons p {
     color: white;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
 }
+hr {
+    background-color: #172d43;
+}
+
 .footer-copy {
     text-align: center;
     color: white;
