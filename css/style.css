@@ -1,0 +1,206 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;  
+}
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.btn {
+    background-color: #30B868;
+    border: none;
+    padding: 12px 16px;
+    color: white;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.btn-1 {
+    background: none;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 12px 16px;
+    color:white;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 5px;
+}
+nav {
+     max-width: 1200px;
+     width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 21px;
+    font-size: 16px;
+    background-color:#FFFFFF;
+
+}
+.nav-list ul {
+    display: flex;
+    gap: 20px;
+}
+nav ul li {
+    list-style-type:none;
+}
+nav ul li a{
+    color: black;
+}
+#banner {
+    background-image: url(../images/hands-woman.png);
+    background-size: cover;
+    height: 100vh;
+}
+.banner-container {
+    max-width: 1200px;
+    width: 71%;
+}
+.banner-container h1{
+    font-size: 72px;
+    font-weight: bold;
+     max-width: 1200px;
+     color: white;
+     padding-top: 150px;
+}
+.banner-container p{
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+}
+.btn-section {
+    margin-top: 32px;
+    text-align: center;
+}
+#cart-section {
+      max-width: 1200px;
+      width: 71%;
+      margin-top: 30px;
+}
+#cart-section .heading h2 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+#cart-section .heading p {
+    font-size: 16px;
+    font-weight: normal;
+    color: #627382;
+    margin:10px 0px 44px;
+    text-align: center;
+}
+.cart-container {
+    display: flex;
+    text-align: center;
+    gap: 24px;
+}
+.cart-container img {
+    padding-bottom: 16px;
+}
+.cart {
+    background-color:#fffffffa;
+     max-width: 322px;
+    padding: 24px;
+    box-shadow: 0 8px 50px 0 #0000002a;
+    border-radius: 5px;
+}
+.cart h4 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+.cart p {
+     font-size: 16px;
+    font-weight: normal;
+    color: #627382;   
+}
+.info-container {
+    max-width: 1200px;
+    width: 71%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+    gap:60px
+
+}
+
+#info-section .para-container h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+#info-section .para-container h5 {
+        font-size: 16px;
+    font-weight: normal;
+    color: #469165;
+}
+#info-section .para-container p {
+    font-size: 16px;
+    font-weight: normal;
+    color: #627382;
+    margin:10px 0px 44px;
+    margin-bottom: 30px;
+}
+#info-section .para-container ul li {
+    margin-bottom: 10px;
+}
+.below-container {
+    padding: 80px 0px;
+    max-width: 1200px;
+    width: 71%;
+    background-color: #F7F6F2;
+    margin-top: 120px;
+}
+.below-container h2 {
+       font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.below-container p {
+       font-size: 16px;
+    font-weight: normal;
+    color: #627382;
+  margin-top: 16px; 
+  text-align: center;
+}
+.btn-acces {
+    text-align: center;
+    padding-top: 24px;
+}
+footer {
+    margin-top: 120px;
+    padding-top: 120px;
+    background-color:#001931;
+}
+.footer-cotainer {
+    max-width: 1200px;
+}
+hr {
+    background-color: #172d43;
+}
+.footer-logo {
+    display: flex;
+    width: 100%;
+  
+}
+.footer-icons p {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.footer-copy {
+    text-align: center;
+    color: white;
+    padding: 30px 0px;
+    font-size: 16px;
+    font-weight: normal;
+}
