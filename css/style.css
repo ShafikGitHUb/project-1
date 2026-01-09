@@ -19,6 +19,10 @@
   text-transform: uppercase;
   font-weight: 600;
   border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #43a6e7;
 }
 .btn-1 {
     background: none;
@@ -32,6 +36,9 @@
   text-transform: uppercase;
   font-weight: 600;
   border-radius: 5px;
+}
+.btn-1:hover {
+    background-color:#43a6e7;
 }
 nav {
      margin: 0 auto;
@@ -71,7 +78,7 @@ nav ul li a{
     font-weight: bold;
      max-width: 1200px;
      color: white;
-     padding-top: 150px;
+
      text-align: center;
 }
 #banner .banner-container p{
