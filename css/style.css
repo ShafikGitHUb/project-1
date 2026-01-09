@@ -16,7 +16,6 @@
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 16px;
-  text-transform: uppercase;
   font-weight: 600;
   border-radius: 5px;
   cursor: pointer;
@@ -33,12 +32,37 @@
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 16px;
-  text-transform: uppercase;
+ 
   font-weight: 600;
   border-radius: 5px;
+  margin-left: 5px;
 }
 .btn-1:hover {
     background-color:#43a6e7;
+}
+.btn-section {
+    margin-top: 32px;
+    text-align: center;   
+}
+.banner-btn1 {
+    text-align: center;
+}
+.banner-btn {
+      background-color:white;
+    color:  #30B868;
+      text-align: center;
+      border-radius: 25px;
+      padding: 8px 12px;
+      font-size: 16px;
+      cursor: pointer;
+ font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 16px;
+}
+.banner-btn:hover {
+    background-color:#43a6e7;
+    color: white;
 }
 nav {
      margin: 0 auto;
@@ -71,15 +95,18 @@ nav ul li a{
     max-width: 1200px;
     width: 71%;
     margin: 0 auto;
-    
+      padding-top: 80px;
+      
+   
 }
 .banner-container h1{
     font-size: 72px;
     font-weight: bold;
      max-width: 1200px;
      color: white;
-
      text-align: center;
+     margin: 16px 0px;
+
 }
 #banner .banner-container p{
     color: white;
@@ -88,12 +115,7 @@ nav ul li a{
     text-align: center;
     max-width: 1200px;
      width: 71%;
-    
-}
-.btn-section {
-    margin-top: 32px;
-    text-align: center;
-    
+     margin: 0 auto;
     
 }
 #cart-section {
@@ -119,25 +141,23 @@ nav ul li a{
     text-align: center;
     gap: 24px;
 }
-.cart-container img {
-    padding-bottom: 16px;
-}
 .cart {
     background-color:#fffffffa;
      max-width: 322px;
-    padding: 24px;
+    padding: 10px;
     box-shadow: 0 8px 50px 0 #0000002a;
     border-radius: 5px;
 }
+
 .cart h4 {
     font-size: 20px;
     font-weight: 600;
-    padding-bottom: 16px;
 }
 .cart p {
      font-size: 16px;
     font-weight: normal;
-    color: #627382;   
+    color: #627382; 
+   
 }
 .info-container {
      margin: 0 auto;
@@ -157,6 +177,7 @@ nav ul li a{
 }
 #info-section .para-container h5 {
         font-size: 16px;
+        text-transform: uppercase;
     font-weight: normal;
     color: #469165;
 }
@@ -169,6 +190,9 @@ nav ul li a{
 }
 #info-section .para-container ul li {
     margin-bottom: 10px;
+}
+#info-section .para-container ul li i{
+    color: #30B868;
 }
 .below-container {
      margin: 0 auto;
@@ -210,8 +234,8 @@ footer {
     padding-top: 120px;
 
 }
-.footer-icons {
-  
+.footer-icons img {
+  margin-right: 10px;
 }
 .footer-icons p {
     color: white;
