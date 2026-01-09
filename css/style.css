@@ -128,12 +128,13 @@ nav ul li a{
     font-size: 48px;
     font-weight: bold;
     text-align: center;
+    margin: 0px;
 }
 #cart-section .heading p {
     font-size: 16px;
     font-weight: normal;
     color: #627382;
-    margin:10px 0px 44px;
+    margin:10px 0px 40px;
     text-align: center;
 }
 .cart-container {
@@ -152,6 +153,7 @@ nav ul li a{
 .cart h4 {
     font-size: 20px;
     font-weight: 600;
+    margin: 10px 0px 0px;
 }
 .cart p {
      font-size: 16px;
@@ -180,6 +182,7 @@ nav ul li a{
         text-transform: uppercase;
     font-weight: normal;
     color: #469165;
+ 
 }
 #info-section .para-container p {
     font-size: 16px;
